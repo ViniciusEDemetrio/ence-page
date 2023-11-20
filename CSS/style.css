@@ -1,0 +1,85 @@
+
+body{
+    background-color: var(--color-white1);
+    margin: 0;
+}
+
+:root{
+    --color-white1: #fff;
+    --color-white2:whitesmoke;
+    --color-gray1:#cdcdcd;
+    --color-gray2:#bababa;
+    --color-gray3:#a7a7a7;
+    --color-gray4:#939393;
+    --color-gray5:#374649;
+    --color-dark1: black;
+    --color-div1: #D35400;
+    --color-div2: red;
+    --color-div3: #1ABC9C;
+    --color-div4: #5DADE2 ;
+    --color-div5: yellow;
+    --color-div6: #3687E9 ;
+    
+    
+}
+
+.bt{
+    background-color: var(--color-div6);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 2px;
+}
+
+
+.project-name h1{
+    text-align: center;
+    padding-top: 20px;
+    color: var(--color-gray4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: xx-large;
+    transition: 1s;
+}
+
+.project-name p{
+    text-align: justify;
+    color: var(--color-gray4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: x-large;
+    transition: 1s;
+    padding: 30px;
+}
+
+.content{
+    display: flex;
+    margin-left: 100px ;
+}
+
+.contentM{
+    display: block;
+    margin: 0;
+}
+
+.project-name{
+    margin: 1em;
+}
+
+.video-container{
+    text-align: center;
+    display: block;
+    margin: 1em;
+}
+
+.video-container iframe{
+    margin: 1em;
+}
+
+.footer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-top-style: solid;
+    border-color: #374649;
+    text-align: center;
+    padding: 10%;
+    display: block;
+    
+}
