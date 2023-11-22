@@ -15,7 +15,7 @@ setInterval(()=>{
 function proximaImg(){
     cont++
     
-    if(cont>3){
+    if(cont>2){
         cont=1
     }
 

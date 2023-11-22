@@ -35,7 +35,7 @@ body{
 .project-name h1{
     text-align: center;
     padding-top: 20px;
-    color: var(--color-gray4);
+    color: var(--color-gray5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-size: xx-large;
     transition: 1s;
@@ -43,7 +43,7 @@ body{
 
 .project-name p{
     text-align: justify;
-    color: var(--color-gray4);
+    color: var(--color-gray5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     font-size: x-large;
     transition: 1s;
@@ -52,7 +52,7 @@ body{
 
 .content{
     display: flex;
-    margin-left: 100px ;
+
 }
 
 .contentM{
