@@ -1,4 +1,34 @@
 
+:root{
+    --color-white1: #fff;
+    --color-white2:whitesmoke;
+    --color-gray1:#cdcdcd;
+    --color-gray2:#bababa;
+    --color-gray3:#a7a7a7;
+    --color-gray4:#939393;
+    --color-gray5:#374649;
+    --color-dark1: black;
+    --color-div1: #D35400;
+    --color-div2: red;
+    --color-div3: #1ABC9C;
+    --color-div4: #5DADE2 ;
+    --color-div5: yellow;
+    --color-div6: #3687E9 ;
+    
+    
+}
+
 .nav-lateral{
     position: fixed;
+    margin-top: 80px;
+    background-color: var(--color-gray3);
+    float: left;
+    height: 100%;
+    width: 150px;
+}
+
+.nav-lateral a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
 }

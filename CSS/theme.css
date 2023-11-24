@@ -17,13 +17,17 @@
     
     
 }
+.themes{
+    margin-top: 50px;
+    margin-left: 160px;
+}
 
 .theme{
     display: flex;
-    color: var(--color-white1);
     border-radius: 10px;
-    background-color: var(--color-gray2);
     margin: 1em;
+    color: black;
+    box-shadow: 10px 5px 5px black;
 }
 
 .theme2{
@@ -35,9 +39,9 @@
 
 .text2 {
     padding-block: 50px;
-    font-size: large;   
+    font-size: medium;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--color-gray4);
+
 }
 
 .text2 h2{
@@ -55,7 +59,7 @@
 }
 
 .text h2{
-    font-size: x-large;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--color-gray4);
     text-align: center;
@@ -63,7 +67,7 @@
 
 .text p{
     margin: 30px;
-    font-size: larger;   
+    font-size:medium;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--color-gray5);
 }

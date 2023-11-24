@@ -18,7 +18,7 @@ body{
     --color-div3: #1ABC9C;
     --color-div4: #5DADE2 ;
     --color-div5: yellow;
-    --color-div6: #3687E9 ;
+    --color-div6: #3687E9   ;
     
     
 }
@@ -52,7 +52,6 @@ body{
 
 .content{
     display: flex;
-
 }
 
 .contentM{

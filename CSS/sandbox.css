@@ -1,0 +1,158 @@
+
+:root{
+    --color-white1: #fff;
+    --color-white2:whitesmoke;
+    --color-gray1:#cdcdcd;
+    --color-gray2:#bababa;
+    --color-gray3:#a7a7a7;
+    --color-gray4:#939393;
+    --color-gray5:#374649;
+    --color-dark1: black;
+    --color-div1: #D35400;
+    --color-div2: red;
+    --color-div3: #1ABC9C;
+    --color-div4: #5DADE2 ;
+    --color-div5: yellow;
+    --color-div6: #3687E9   ;
+    
+    
+}
+body{
+    margin: 0px;
+}
+
+.content{
+    display: flex;
+    margin-top: 80px;
+}
+
+.select-algo{
+    display: flexbox;
+    background-color: var(--color-gray2);
+    height: 600px;
+    width: 25%;
+}
+
+.algo-var1{
+    display: none;
+}
+.operations{
+    width: 75%;
+}
+
+.operation{
+    background-color:#2196F3;
+    height: 551px;
+    margin-bottom: 100px;
+}
+
+.cripto{
+    display: flex;
+}
+
+.cripto a{
+    margin-left: 60px;
+}
+
+.descripto a{
+    margin-left: 60px;
+}
+
+.descripto{
+    display: flex;
+}
+
+.caixa-texto{
+    width: 440px;
+    height: 300px;
+    margin-left: 60px;
+}
+.entrada{
+    margin-top: 2em;
+}
+.saida{
+    margin-top: 2em;
+}
+
+.op-botom{
+    background-color:#2196F3;
+    margin-left: 60px;
+}
+
+.op-botom a:not(:first-child){
+    background-color:#2196F3;
+    margin-left: 260px;
+}
+
+.tab a{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+
+.tab a:hover{
+    background-color: #4CAF50;
+}
+
+.algo-box a{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: background-color 0.5s ease;
+}
+
+.algo-box a:hover{
+    background-color: #4CAF50;
+    
+}
+
+.op-botom{
+    margin-top: 80px;
+}
+
+.op-botom a:last-child{
+    background-color: orange;
+    border: none;
+    color: var(--color-gray5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: background-color 0.5s ease;
+}
+
+.op-botom a:last-child:hover{
+    background-color: orangered;
+    border: none;
+    color: var(--color-gray5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: background-color 0.5s ease;
+}
